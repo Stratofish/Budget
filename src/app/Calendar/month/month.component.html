@@ -1,0 +1,5 @@
+<ul class="day-list">
+  <li *ngFor="let day of days">
+    <app-day [date]="day.date" [payments]="day.payments"></app-day>
+  </li>
+</ul>

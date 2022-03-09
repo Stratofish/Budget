@@ -1,0 +1,5 @@
+<ul class="payment-entries">
+  <li *ngFor="let payment of payments">
+    {{payment.name}} - <span class="payment-entry" [ngClass]="{'payment-entry-predicted': payment.isPredicted, 'payment-entry-confirmed': !payment.isPredicted}">{{ payment.amount }}</span>
+  </li>
+</ul>

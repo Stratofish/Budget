@@ -1,0 +1,29 @@
+.payment-entries {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.payment-entries li {
+  display: inline-block;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+.payment-entry {
+  display: inline-block;
+  height: 20px;
+  border: 1px solid black;
+  padding: 0 5px;
+}
+
+.payment-entry-predicted {
+  background-color: red;
+  color: white;
+}
+
+.payment-entry-confirmed {
+  background-color: green;
+  color: white;
+}
